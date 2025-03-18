@@ -4,9 +4,10 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let num1 = 5;
-let num2 = 10;
-console.log(num1);
+const num1 = 5;
+const num2 = 10;
+const num3 = num1>num2
+console.log(num3);
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -57,14 +58,23 @@ console.log(num1);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let n1= 10;
+let n2= "flour"
+console.log(typeof n1);
+console.log(typeof n2);
+
+
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+console.log(n1%2);
+
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+  */
   let val = 7
   if (val < 10) {
       console.log("Meno di 10");
@@ -73,7 +83,7 @@ console.log(num1);
     } else {
       console.log("Uguale a 10 o maggiore");
     }
-*/
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -85,9 +95,14 @@ const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
+
 }
 
+
+
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.city = "Toronto";
+console.log(me);
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
@@ -95,11 +110,19 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+console.log(me.lastName);
+delete me.lastName;
+console.log(me);
+;
+
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+me.skills.pop();
+console.log(me);
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
@@ -107,8 +130,15 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+/*const numeri[];*/
+const numeri=[1,2,3,4,5,6,7,8,9,10];
+console.log(numeri);
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+numeri.splice(9,9,100);
+console.log(numeri);

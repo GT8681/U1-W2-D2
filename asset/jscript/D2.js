@@ -2,20 +2,21 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
 
 const num1 = 5;
 const num2 = 10;
 const num3 = num1>num2
 console.log(num3);
-
+*/
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
+const number = 6;
+console.log(number!=5);
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
@@ -74,16 +75,20 @@ console.log(n1%2);
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  */
-  let val = 4
+ 
+  let val = 
   if (val < 10) {
       console.log("Meno di 10");
-    } if (val < 5) {
+    
+    } 
+    else{
+    if (val < 5) {
       console.log("Meno di 5");
+    
     } else {
       console.log("Uguale a 10 o maggiore");
     }
-
+    } */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 

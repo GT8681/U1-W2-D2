@@ -4,11 +4,17 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let num1 = 5;
+let num2 = 10;
+console.log(num1);
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
